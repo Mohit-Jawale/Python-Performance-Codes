@@ -32,3 +32,11 @@ if final_time_code_2 < final_time_code_1:
 else:
     print("Code 1 is {percent}% faster than Code 2"
           .format(percent=abs((final_time_code_2 - final_time_code_1) / final_time_code_2) * 100))
+
+
+
+# Results
+
+# This is time for code 1-:39.77089309692383
+# This is time for code 2-:36.322603940963745
+# Code 2 is 9.49350757331356% faster than Code 1
